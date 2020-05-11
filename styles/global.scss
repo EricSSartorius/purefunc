@@ -1,0 +1,159 @@
+@import "./styles/vars.scss";
+
+/* [data-theme="dark"] {
+  --bgColor: var(--blue-800);
+  --textColor: var(--white);
+  --lineColor: var(--light-grey);
+} */
+
+html {
+  /* Sets 1 REM to 10px */
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bgColor);
+  color: var(--textColor);
+  font-family: var(--bodyFont);
+  font-size: var(--baseFontSize);
+  line-height: 1.5;
+}
+
+main {
+  overflow: hidden;
+  min-height: 60vh;
+  margin: 0 auto;
+  max-width: 1146px;
+  padding: var(--basePadding);
+}
+
+section,
+aside {
+  padding: 0 var(--basePadding);
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  font-style: normal;
+  font-family: var(--headingFont);
+}
+
+h2 {
+  margin: 2rem 0 2rem;
+}
+
+h1,
+h3,
+h4 {
+  margin: var(--margins);
+}
+
+h5,
+h6,
+p {
+  margin: 2rem 0;
+}
+
+h1 {
+  line-height: 1.125;
+  font-size: var(--heading-one);
+}
+
+h2 {
+  line-height: 1.16;
+  font-size: var(--heading-two);
+}
+
+h3 {
+  line-height: 1.2;
+  font-size: var(--heading-three);
+}
+
+h4 {
+  line-height: 1.375;
+  font-size: var(--heading-four);
+}
+
+h5 {
+  line-height: 1.5;
+  font-size: var(--heading-five);
+}
+
+h6 {
+  line-height: 1.5;
+  font-size: var(--heading-six);
+}
+
+p {
+  font-family: var(--bodyFont);
+  font-size: var(--baseFontSize);
+  line-height: 1.875;
+  margin: 1.5rem 0;
+}
+
+p.large,
+p.large a {
+  font-size: var(--largeFontSize);
+  line-height: 2;
+  margin: 4rem 0;
+}
+
+p.small,
+p.small a {
+  font-size: var(--smallFontSize);
+}
+
+p.smallest,
+p.smallest a {
+  font-size: var(--smallestFontSize);
+}
+
+p a {
+  color: var(--primaryColor);
+}
+
+a {
+  text-decoration: none;
+  color: var(--red);
+  font-size: inherit;
+  line-height: 30px;
+  transition: all 0.3s;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+button {
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  margin: 1.5rem 0;
+  display: block;
+  width: 100%;
+  padding: 2.3rem 2rem;
+  background: var(--grey);
+  font-size: var(--baseFontSize);
+  color: var(--textColor);
+  border-radius: 6px;
+  /* border: 1px solid var(--darkGrey); */
+  max-width: 100%;
+}
+
+/* ::placeholder {
+  color: var(--darkestGrey);
+} */
+
+label,
+label span {
+  display: block;
+}

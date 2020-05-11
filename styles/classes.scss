@@ -1,0 +1,46 @@
+/* color classes */
+.grey-text {
+  color: var(--grey);
+}
+
+.blue-text {
+  color: var(--blue);
+}
+
+.purple-text {
+  color: var(--purple);
+}
+
+.light-blue-text {
+  color: var(--lightBlue);
+}
+
+.green-text {
+  color: var(--green);
+}
+
+.orange-text {
+  color: var(--orange);
+}
+
+.red-text {
+  color: var(--red);
+}
+
+/* Misc classes */
+.center-text {
+  text-align: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-padding {
+  padding-top: var(--topSectionPadding);
+}
+
+.bottom-padding {
+  padding-bottom: var(--bottomSectionPadding);
+}

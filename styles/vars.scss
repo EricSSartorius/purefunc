@@ -1,0 +1,69 @@
+:root {
+  /* Colors */
+  --black: #252526;
+  --blue: #82a8ff;
+  --white: #eeffff;
+  --purple: #c88feb;
+  --green: #c2e98a;
+  --orange: #ffcc67;
+  --grey: #b2c8c5;
+  --lightBlue: #88dcff;
+  --red: #f1694d;
+
+  /* Theme Vars */
+  --textColor: var(--white);
+  --bgColor: var(--black);
+
+  /* Misc Sizes */
+  --margins: 4rem 0 2rem;
+  --baseMargin: 4rem;
+
+  --topSectionPadding: 0rem;
+  --bottomSectionPadding: 4rem;
+  --baseSectionPadding: 6rem;
+
+  --basePadding: 2.5rem;
+  /* --cardPadding: 1rem 2rem; */
+
+  --cardRadius: 5px;
+
+  /* Z-Index */
+  --headerLevel: 10;
+  --highestLevel: 100;
+
+  /* Elevation */
+  --elevation-0: inset 6px 0 5px -6px rgba(0, 0, 0, 0.7);
+  --elevation-1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --elevation-2: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  --elevation-3: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+
+  /* Fonts */
+  --baseFontSize: 1.6rem;
+  --smallFontSize: 1.4rem;
+  --smallestFontSize: 1.2rem;
+  --largeFontSize: 1.8rem;
+  --heading-one: 4.2rem;
+  --heading-two: 3.6rem;
+  --heading-three: 3rem;
+  --heading-four: 2.6rem;
+  --heading-five: var(--largeFontSize);
+  --heading-six: var(--baseFontSize);
+
+  --headingFont: "Fira Code", "Helvetica Neue", cursive, sans-serif;
+  --bodyFont: var(--headingFont);
+}
+
+/* Above medium breakpoint */
+@media (min-width: 880px) {
+  :root {
+    --margins: 4rem 0 2rem;
+    --topSectionPadding: 7rem;
+    --bottomSectionPadding: 8rem;
+    --baseSectionPadding: 15rem;
+    --baseMargin: 6rem;
+    --basePadding: 5rem;
+    /* --cardPadding: 2rem 3rem; */
+    --heading-one: 5.6rem;
+    --heading-two: 5rem;
+  }
+}
