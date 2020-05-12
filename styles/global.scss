@@ -22,9 +22,9 @@ body {
 main {
   overflow: hidden;
   min-height: 60vh;
-  margin: 0 auto;
-  max-width: 1146px;
-  padding: var(--basePadding);
+  // margin: 0 auto;
+  // max-width: 1146px;
+  padding: var(--basePadding) calc(var(--basePadding) * 2);
 }
 
 section,
