@@ -25,11 +25,11 @@
 </h4>
 
 <ul>
-  <li>Full-stack web app development & design</li>
-  <li>Static website development & design</li>
-  <li>Refactoring or updating existing websites</li>
-  <li>E-commerce integration into existing websites</li>
-  <li>Consultation for development solutions and best practices</li>
+  <li>Full-stack web app development & design,</li>
+  <li>Static website development & design,</li>
+  <li>Refactoring or updating existing websites,</li>
+  <li>E-commerce integration into existing websites,</li>
+  <li>Consultation for development solutions and best practices,</li>
 </ul>
 <span class="light-blue-text close-bracket">}</span>
 
