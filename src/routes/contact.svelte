@@ -38,10 +38,10 @@
     #Twitter:
     <a
       class="green-text"
-      href="https://www.twitter.com/purefunc"
+      href="https://www.twitter.com/_purefunc"
       target="_blank"
       rel="noopener noreferrer">
-      @purefunc
+      @_purefunc
     </a>
   </li>
   <li>
