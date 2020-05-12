@@ -25,7 +25,7 @@
 
 <h1>Recent Projects</h1>
 
-<p>Coming Soon</p>
+<p class="grey-text">/* Coming Soon */</p>
 
 <!-- <ul>
   {#each projects as project}
