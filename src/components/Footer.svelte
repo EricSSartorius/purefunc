@@ -30,9 +30,6 @@
       li {
         display: block;
       }
-      ul {
-        margin-bottom: 2rem;
-      }
     }
   }
 </style>
