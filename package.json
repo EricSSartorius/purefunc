@@ -1,7 +1,8 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "purefunc",
+  "description": "A Homepage for Pure Func",
   "version": "0.0.1",
+  "author": "Eric Sartorius",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
